@@ -1,0 +1,62 @@
+/* Create.css */
+
+/* Styles for the container */
+.container {
+    max-width: 600px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    background-color: transparent; /* Set the background color to transparent */
+}
+
+/* Styles for the heading */
+h2 {
+    font-size: 24px; /* Set the font size of h2 */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Styles for form groups */
+.form-group {
+    margin-bottom: 20px; /* Add margin at the bottom of each form group */
+}
+
+/* Styles for labels */
+.label {
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Styles for form controls (input elements) */
+.form-control {
+    width: 100%; /* Make form controls occupy 100% width */
+    padding: 10px; /* Add padding to form controls */
+    border: 1px solid #ccc; /* Add a 1px solid border */
+    border-radius: 5px; /* Add rounded corners */
+    font-size: 16px; /* Set font size */
+}
+
+/* Styles for submit buttons */
+.submit-button {
+    background-color: #007bff; /* Background color of the button */
+    color: #fff; /* Text color of the button */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
+
+/* Styles for submit button on hover */
+.submit-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Styles for the "Go to Home" link */
+.link-to-home {
+    display: block; /* Display as a block-level element */
+    margin-top: 20px; /* Add margin at the top */
+    text-align: center; /* Center-align the text */
+    text-decoration: none; /* Remove underlines from the link */
+    color: #007bff; /* Text color of the link */
+    font-weight: bold; /* Make the link text bold */
+}
